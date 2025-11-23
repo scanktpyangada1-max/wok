@@ -1,0 +1,25 @@
+{
+  "name": "discord-account-manager",
+  "version": "1.0.0",
+  "description": "Discord Account Manager - Switch between multiple Discord accounts with ease",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev"
+  },
+  "keywords": [
+    "discord",
+    "account-manager",
+    "electron"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "electron": "^39.2.3",
+    "electron-store": "^8.1.0",
+    "express": "^5.1.0",
+    "puppeteer-core": "^24.31.0",
+    "ws": "^8.18.3"
+  }
+}
